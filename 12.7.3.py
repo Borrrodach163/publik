@@ -6,3 +6,5 @@ c = int(money / 100 * per_cent['ВТБ'])
 d = int(money / 100 * per_cent['СБЕР'])
 deposit = [a, b, c, d]
 print(deposit)
+maxcash = max(deposit)
+print('Максимальная сумма, которую Вы сможете заработать - ', maxcash)
