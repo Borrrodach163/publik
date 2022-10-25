@@ -39,7 +39,7 @@ for i in range(ticket_number):
         except ValueError:
             print('Введите целое число')
 if ticket_number > 3:
-    sale = cash - ((cash / 100) * 20)
+    sale = cash - ((cash / 100) * 10)
     print(f'Сумма к оплате {sale} руб., с учетом 10%-ой скидки за удиновременную покупку более 3 билетов')
 else:
     print(f'Сумма к оплате {cash} руб.')
