@@ -11,35 +11,24 @@
 # 3. В результате программы выводится сумма к оплате. При этом, если человек регистрирует больше трёх человек на
 # конференцию, то дополнительно получает 10% скидку на полную стоимость заказа.
 
+tickets = int(input("Введите количество необходимых билетов: "))
+person = tickets
+
 cash = 0
-while True:
-    try:
-        ticket_number = input('Сколько билетов вы хотите приобрести на мероприятие? ')
-        ticket_number = int(ticket_number)
-        if type(ticket_number) == int:
-            break
-    except ValueError:
-        print('Введите целое число')
-for i in range(ticket_number):
-    i += 1
-    while True:
-        try:
-            age_for_ticket = input(f'Для какого возраста билет №{i}? ')
-            age_for_ticket = int(age_for_ticket)
-            if age_for_ticket < 18:
-                print('Билет бесплатный')
-            elif 25 > age_for_ticket >= 18:
-                cash += 990
-                print('Стоимость билета: 990 руб.')
-            else:
-                cash += 1390
-                print('Стоимость билета: 1390 руб.')
-            if type(age_for_ticket) == int:
-                break
-        except ValueError:
-            print('Введите целое число')
-if ticket_number > 3:
+while person != 0:
+    age_for_ticket = int(input(f'Укажите для какого возраста приобретается билет № {person} ? '))
+    if age_for_ticket < 18:
+        print('Билет бесплатный')
+    elif 25 > age_for_ticket >= 18:
+        cash += 990
+        print('Стоимость билета: 990 руб.')
+    else:
+        cash += 1390
+        print('Стоимость билета: 1390 руб.')
+    person -= 1
+
+if tickets > 3:
     sale = cash - ((cash / 100) * 10)
-    print(f'Сумма к оплате {sale} руб., с учетом 10%-ой скидки за удиновременную покупку более 3 билетов')
+    print(f'Сумма к оплате {sale} руб., применена 10%-ая скидка за покупку более 3 билетов единовременно')
 else:
     print(f'Сумма к оплате {cash} руб.')
