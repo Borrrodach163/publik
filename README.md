@@ -1,4 +1,3 @@
 # SkillFactory
-В ветках данного репозитория представлены задания, выполненные мной на курсе SkillFactory Тестировщик - автоматизатор на Python
 
-[программа курса Тестировщик-автоматизатор на Python.pdf](https://github.com/Borrrodach163/publik/files/9916639/-.Python.pdf)
+[16.8.2.pdf](https://github.com/Borrrodach163/skillfactory/files/9969157/16.8.2.pdf)
