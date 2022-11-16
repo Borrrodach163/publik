@@ -45,6 +45,6 @@ def say_lmao(message: telebot.types.Message):
 
 @bot.message_handler(content_types=['voice', ])
 def say_lmao(message: telebot.types.Message):
-    bot.reply_to(message, 'Я бы поговорил с тобой, но мне не некогда, я занят конвертацией =(')
+    bot.reply_to(message, 'Я бы поговорил с тобой, но мне некогда, я занят конвертацией =(')
 
 bot.polling()
