@@ -25,11 +25,11 @@
 
 # Python testing automation
 
-- Задание 19.2.3
+- [Задание 19.2.3](https://github.com/dmitriyparshin-qa/skillfactory/tree/задание-19.2.3)
 
-- Задание 19.7.2
+- [Задание 19.7.2](https://github.com/dmitriyparshin-qa/skillfactory/tree/задание-19.7.2)
 
-- Задание 20.4.1
+- [Задание 20.4.1](https://github.com/dmitriyparshin-qa/skillfactory/tree/Задание-20.4.1)
 
 - [Задание 22.1.4](https://github.com/dmitriyparshin-qa/skillfactory/tree/задание-22.1.4)
 
